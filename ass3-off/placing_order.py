@@ -134,7 +134,7 @@ def placing_order(store_dict, customer_dict):
     """
     orders_list = []
 
-    register = input('Have you registered to our store (Y for Yes and N for No: ')
+    register = input('Have you registered to our store (Y for Yes and N for No): ')
     customer_id = ''
     # If the customer id is not in dict, let the customer register
     if register == "N":
